@@ -29,10 +29,9 @@ unzip -q rawdata.zip
 # Complete assignment here
 
 # 1. Create a directory named data
-# cd .. # At the end of DSI SCRIPT, the working folder was moved to Newproject, so returing to the Assignments folder. 
-mkdir -p data
+mkdir ./data
 # 2. Move the ./rawdata directory to ./data/raw (eg. move it into ./data and rename it to raw)
-mv newproject/rawdata ./data/raw
+mv ./rawdata ./data/raw
 # 3. List the contents of the ./data/raw directory
  ls ./data/raw/
 # 4. Create the directory ./data/processed, 
