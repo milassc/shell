@@ -29,7 +29,7 @@ unzip -q rawdata.zip
 # Complete assignment here
 
 # 1. Create a directory named data
-cd .. # At the end of DSI SCRIPT, the working folder was moved to Newproject, so returing to the Assignments folder. 
+# cd .. # At the end of DSI SCRIPT, the working folder was moved to Newproject, so returing to the Assignments folder. 
 mkdir -p data
 # 2. Move the ./rawdata directory to ./data/raw (eg. move it into ./data and rename it to raw)
 mv newproject/rawdata ./data/raw
@@ -53,9 +53,9 @@ rm ./data/raw/*ipaddr*
 rm ./data/processed/user_logs/*ipaddr*
 
 # 8. Create a file named ./data/inventory.txt that lists all the files in the subfolders of ./data/processed
-ls ./data/processed/user_logs/ >> ./data/Inventory.txt
-ls ./data/processed/server_logs/ >> ./data/Inventory.txt
-ls ./data/processed/event_logs/ >> ./data/Inventory.txt
+ls ./data/processed/user_logs/ >> ./data/inventory.txt
+ls ./data/processed/server_logs/ >> ./data/inventory.txt
+ls ./data/processed/event_logs/ >> ./data/inventory.txt
 
 ###########################################
 
